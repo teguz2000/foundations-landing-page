@@ -92,3 +92,42 @@ body {
     border-radius: 8px;
     cursor: pointer;
 }
+
+.info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.info_title{
+    flex: 1;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.info_item img{
+    border: none;
+    border-radius: 8px;
+}
