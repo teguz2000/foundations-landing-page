@@ -202,3 +202,15 @@ body {
     border: 2px solid #ffffff;
     font-size: 18px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    padding: 40px 0px 40px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
